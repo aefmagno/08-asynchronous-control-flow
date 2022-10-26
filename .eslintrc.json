@@ -4,7 +4,7 @@
         "commonjs": true,
         "es2021": true
     },
-    "extends": ["eslint:recommended", "airbnb"], 
+    "extends": ["airbnb"], 
     "overrides": [
         {
             "files": ["**/*.js", "**/*.mjs"]
@@ -15,7 +15,7 @@
     },
     "rules": {
         "semi": ["error", "never"],
-        "no-console": "off",
+        "no-console": "off"
     }
 }
 
